@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name = "headline_wrapped">
+        <item name="android:textSize">70sp</item>
+        <item name="android:letterSpacing">-0.06</item>
+        <item name="fontWeight">800</item>
+    </style>
+    <style name = "sub_wrapped">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.06</item>
+        <item name="fontWeight">700</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+    </style>
+</resources>

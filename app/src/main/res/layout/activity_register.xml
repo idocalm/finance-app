@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/register"
+        android:textAppearance="@style/headline_wrapped"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_black_font"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan_02"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textAppearance="@style/sub_wrapped"
+        android:fontFamily="@font/inter_extrabold_font"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/input_field"
+        android:drawablePadding="10dp"
+        android:hint="@string/enter_your_email"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
+        android:textSize="20sp"
+        android:fontFamily="@font/inter_extrabold_font"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center_horizontal"
+
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        android:drawablePadding="10dp"
+        android:hint="@string/enter_your_password"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
+        android:textSize="20sp"
+        android:fontFamily="@font/inter_extrabold_font"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/google_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/google_login" />
+
+        <ImageView
+            android:id="@+id/facebook_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:src="@drawable/facebook_login" />
+
+        <ImageView
+            android:id="@+id/apple_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:src="@drawable/apple_login" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/join"
+        android:textAppearance="@style/headline_wrapped"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="100dp"
+        android:background="@drawable/button"
+        />
+
+
+</LinearLayout>

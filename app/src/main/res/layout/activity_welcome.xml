@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/welcome"
+        android:textAppearance="@style/headline_wrapped"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_black_font"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan_01"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textAppearance="@style/sub_wrapped"
+        android:fontFamily="@font/inter_extrabold_font"
+        android:textAlignment="center"
+        />
+    
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="I'm new here"
+        android:textAppearance="@style/headline_wrapped"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="100dp"
+        android:background="@drawable/button"
+        />
+
+    <TextView
+        android:id="@+id/move_to_login"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textAppearance="@style/sub_wrapped"
+        android:fontFamily="@font/inter_extrabold_font"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/peeps_entrance"
+
+        />
+
+
+
+</LinearLayout>

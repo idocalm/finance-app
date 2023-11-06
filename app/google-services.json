@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "220375027950",
+    "project_id": "cs-study-c6aca",
+    "storage_bucket": "cs-study-c6aca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220375027950:android:8fdf38bbdd38dc605863ff",
+        "android_client_info": {
+          "package_name": "com.example.finance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220375027950-dfo2iqadojvenqjpdk46r4i6pn1q3ihs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqb6RC6WNGvEA_4Rcxl_EW6Iyze15zK-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220375027950-dfo2iqadojvenqjpdk46r4i6pn1q3ihs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

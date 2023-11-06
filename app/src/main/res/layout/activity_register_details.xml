@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="@string/fill_details"
+        android:textAppearance="@style/headline_wrapped"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_black_font"
+        android:textAlignment="center"
+        />
+
+
+
+    <!-- Name Part -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/nameLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My name is: "
+            android:textSize="20sp"
+            android:textColor="@color/hint"
+            android:textAppearance="@style/sub_wrapped"
+            android:fontFamily="@font/inter_semi_bold_font"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="25dp"
+
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="25dp"
+            android:hint="Enter your name"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint"
+            android:textSize="20sp"
+            android:fontFamily="@font/inter_extrabold_font"
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+    <!-- Currency Part -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/currencyLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currency_text"
+            android:textSize="20sp"
+            android:textColor="@color/hint"
+            android:textAppearance="@style/sub_wrapped"
+            android:fontFamily="@font/inter_semi_bold_font"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="25dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            >
+
+            <Button
+                android:id="@+id/shekels"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:text="₪"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/inter_semi_bold_font"
+                android:layout_marginEnd="10dp"
+                />
+
+            <Button
+                android:id="@+id/dollars"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:text="$"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/inter_semi_bold_font"
+                android:layout_marginEnd="10dp"
+                />
+
+            <Button
+                android:id="@+id/euros"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:text="€"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/inter_semi_bold_font"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Gender Part -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/genderLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My gender is:"
+            android:textSize="20sp"
+            android:textColor="@color/hint"
+            android:textAppearance="@style/sub_wrapped"
+            android:fontFamily="@font/inter_semi_bold_font"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="25dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            >
+
+            <Button
+                android:id="@+id/male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button_lg"
+                android:text="Male"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/inter_semi_bold_font"
+                android:layout_marginEnd="10dp"
+                />
+
+            <Button
+                android:id="@+id/female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button_lg"
+                android:text="Female"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/inter_semi_bold_font"
+                android:layout_marginEnd="10dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

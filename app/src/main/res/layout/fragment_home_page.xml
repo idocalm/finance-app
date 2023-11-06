@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Hi Ido"
+        android:layout_marginStart="25dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAppearance="@style/sub_wrapped"
+        android:fontFamily="@font/inter_semi_bold_font"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome back"
+        android:layout_marginStart="25dp"
+        android:textSize="20sp"
+        android:textColor="@color/hint"
+        android:textAppearance="@style/sub_wrapped"
+        android:fontFamily="@font/inter_semi_bold_font"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="1,200₪"
+        android:layout_marginStart="25dp"
+        android:textSize="80sp"
+        android:textColor="@color/white"
+        android:textAppearance="@style/headline_wrapped"
+        android:fontFamily="@font/inter_extrabold_font"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This month spending"
+        android:layout_marginStart="25dp"
+        android:textSize="20sp"
+        android:textColor="@color/hint"
+        android:textAppearance="@style/sub_wrapped"
+        android:fontFamily="@font/inter_semi_bold_font"
+        />
+</FrameLayout>

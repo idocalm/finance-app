@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">finance</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">Register</string>
+    <string name="slogan_01">Your personal financial detective</string>
+    <string name="slogan_02">Regain control of your money today</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="join">Join</string>
+    <string name="login">Login</string>
+    <string name="fill_details">Lets fill in some details</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="currency_text">I use the following currency:</string>
+    <string name="scan">Scan</string>
+</resources>
